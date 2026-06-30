@@ -1,5 +1,5 @@
 const text =
-"ServiceNow Certified System Administrator";
+"ServiceNow Certified System Administrator | Certified Application Developer";
 
 let i = 0;
 
