@@ -370,7 +370,7 @@ nav ul li a.active::after{
 
     padding:90px 6% 40px;
 
-    gap:20px;
+    gap:80px;
 
 }
 
@@ -382,15 +382,11 @@ nav ul li a.active::after{
 
 .hero-right{
 
-    width:100%;
+    flex:1;
 
     display:flex;
 
     justify-content:center;
-
-    margin-bottom:0;
-
-    padding-bottom:0;
 
 }
 
