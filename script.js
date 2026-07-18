@@ -38,10 +38,11 @@ if (typingElement) {
    MOBILE MENU
 ========================================== */
 
-const menu = document.querySelector(".menu-toggle");
-const nav = document.querySelector("nav");
+const menu=document.querySelector(".menu-toggle");
 
-menu.onclick = () =>{
+const nav=document.querySelector("nav");
+
+menu.onclick=()=>{
 
 nav.classList.toggle("active");
 
