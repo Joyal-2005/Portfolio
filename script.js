@@ -38,16 +38,15 @@ if (typingElement) {
    MOBILE MENU
 ========================================== */
 
-const menu=document.querySelector(".menu-toggle");
+const menu = document.querySelector(".menu-toggle");
 
-const nav=document.querySelector("nav");
+const nav = document.querySelector("nav");
 
-menu.onclick=()=>{
+menu.addEventListener("click", () => {
 
-nav.classList.toggle("active");
+    nav.classList.toggle("active");
 
-};
-
+});
 /* ==========================================
    STICKY HEADER
 ========================================== */
