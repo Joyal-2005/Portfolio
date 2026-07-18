@@ -2281,9 +2281,11 @@ cursor:pointer;
 /* Hero */
 
 .hero{
+order:-1;
+flex-direction:column;
 
-flex-direction:column-reverse;
 
+order:-1;
 text-align:center;
 
 padding:130px 6% 60px;
