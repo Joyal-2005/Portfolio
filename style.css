@@ -2253,7 +2253,163 @@ nav.active{
 }
 
 }
+/*====================================
+        MOBILE RESPONSIVE
+====================================*/
 
+@media (max-width:768px){
+
+header{
+
+padding:15px 5%;
+
+height:80px;
+
+}
+
+.logo img{
+
+width:55px;
+
+height:55px;
+
+}
+
+.logo-text h2{
+
+font-size:18px;
+
+}
+
+.logo-text span{
+
+font-size:10px;
+
+letter-spacing:1px;
+
+}
+
+/* Hide Menu */
+
+nav{
+
+position:absolute;
+
+top:80px;
+
+left:-100%;
+
+width:100%;
+
+background:#071325;
+
+transition:.4s;
+
+padding:20px 0;
+
+}
+
+nav.active{
+
+left:0;
+
+}
+
+nav ul{
+
+flex-direction:column;
+
+gap:25px;
+
+}
+
+.menu-toggle{
+
+display:block;
+
+font-size:28px;
+
+color:white;
+
+cursor:pointer;
+
+}
+
+/* Hero */
+
+.hero{
+
+flex-direction:column-reverse;
+
+text-align:center;
+
+padding:130px 6% 60px;
+
+gap:40px;
+
+}
+
+.hero-left{
+
+width:100%;
+
+}
+
+.hero-right{
+
+width:100%;
+
+display:flex;
+
+justify-content:center;
+
+}
+
+.hero-right img{
+
+width:280px;
+
+height:280px;
+
+}
+
+.hero h1{
+
+font-size:48px;
+
+}
+
+.hero h2{
+
+font-size:22px;
+
+}
+
+.description{
+
+max-width:100%;
+
+}
+
+.buttons{
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+}
+
+.hero-stats{
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+gap:25px;
+
+}
+
+}
 /* =====================================================
    END OF PORTFOLIO V2 CSS
 ====================================================== */

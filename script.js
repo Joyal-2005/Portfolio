@@ -38,19 +38,14 @@ if (typingElement) {
    MOBILE MENU
 ========================================== */
 
-const menuToggle = document.querySelector(".menu-toggle");
+const menu = document.querySelector(".menu-toggle");
 const nav = document.querySelector("nav");
 
-if (menuToggle && nav) {
+menu.onclick = () =>{
 
-    menuToggle.addEventListener("click", () => {
+nav.classList.toggle("active");
 
-        nav.classList.toggle("active");
-
-    });
-
-}
-
+};
 /* ==========================================
    CLOSE MENU AFTER CLICKING A LINK
 ========================================== */
