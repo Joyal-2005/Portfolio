@@ -46,25 +46,6 @@ menu.onclick = () =>{
 nav.classList.toggle("active");
 
 };
-/* ==========================================
-   CLOSE MENU AFTER CLICKING A LINK
-========================================== */
-
-const navLinks = document.querySelectorAll("nav ul li a");
-
-navLinks.forEach(link => {
-
-    link.addEventListener("click", () => {
-
-        if (nav.classList.contains("active")) {
-
-            nav.classList.remove("active");
-
-        }
-
-    });
-
-});
 
 /* ==========================================
    STICKY HEADER
