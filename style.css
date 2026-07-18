@@ -617,3 +617,158 @@ footer h3{
 
     transform:translateY(-3px);
 }
+/* ===========================
+   MOBILE RESPONSIVE
+=========================== */
+
+@media (max-width: 768px){
+
+    /* Navigation */
+
+    header{
+        flex-direction: column;
+        padding: 15px 20px;
+    }
+
+    nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    /* Hero Section */
+
+    .hero{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 40px 20px;
+        gap: 40px;
+    }
+
+    .hero-left,
+    .hero-right{
+        width: 100%;
+    }
+
+    .hero-left h1{
+        font-size: 2.5rem;
+    }
+
+    .hero-left h2{
+        font-size: 1.5rem;
+    }
+
+    .description{
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    /* Profile Image */
+
+    .hero-right img{
+        width: 260px;
+        height: 260px;
+    }
+
+    /* Buttons */
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .btn-primary,
+    .btn-secondary{
+        width: 220px;
+        text-align: center;
+    }
+
+    /* Stats */
+
+    .hero-stats{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Skills */
+
+    .skill-grid{
+        grid-template-columns: 1fr;
+    }
+
+    /* Projects */
+
+    .project-grid{
+        grid-template-columns: 1fr;
+    }
+
+    /* Certifications */
+
+    .cert-grid{
+        grid-template-columns: 1fr;
+    }
+
+    /* Contact */
+
+    .contact-container{
+        grid-template-columns: 1fr;
+    }
+
+    /* About */
+
+    .about-grid{
+        grid-template-columns: 1fr;
+    }
+
+    /* Footer */
+
+    footer{
+        padding: 20px;
+        text-align: center;
+    }
+
+}
+
+/* ===========================
+   SMALL MOBILE
+=========================== */
+
+@media (max-width:480px){
+
+    .hero-left h1{
+        font-size:2rem;
+    }
+
+    .hero-left h2{
+        font-size:1.2rem;
+    }
+
+    .hero-right img{
+        width:220px;
+        height:220px;
+    }
+
+    .hero-stats h3{
+        font-size:24px;
+    }
+
+    .page-section h1{
+        font-size:2rem;
+    }
+
+    .contact-card,
+    .project-card,
+    .skill-card,
+    .about-card,
+    .cert-card{
+        padding:20px;
+    }
+
+}
+img{
+    max-width:100%;
+    height:auto;
+}
